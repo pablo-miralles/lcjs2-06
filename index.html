@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Elige tus cartas</h1>
+      <p>Saca las cartas que quieras para conseguir una puntuación lo más cercana a 7.5, este incluído. Los números del 1 al 7 valen su valor, las figuras, 0.5. Puedes plantarte cuando quieras o seguir eligiendo cartas, ¡pero cuidado! Si sacas más de 7.5, habrás perdido.</p>
+      <div class="cards">
+        <div class="cards__item" data-value="1">
+          <img class="cards__item-img" src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg" alt="">
+        </div>
+      </div>
+      <div class="puntuacion-total"></div>
+      <button class="dame-carta">Dame carta</button>
+      <button class="me-planto">Me planto</button>
+      <button class="reset">Nueva partida</button>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
